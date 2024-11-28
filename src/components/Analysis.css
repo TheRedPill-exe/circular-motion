@@ -1,0 +1,94 @@
+/* Estilos para el contenedor de las imágenes dentro de una galería */
+.gallery-container {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.analysis-card {
+    margin-bottom: 40px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creando una cuadrícula responsive */
+    gap: 20px;
+    justify-content: center; /* Centra la cuadrícula en el contenedor */
+}
+
+.image-item {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-item:hover .image {
+    transform: scale(1.05);
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.image-item:hover .image-overlay {
+    opacity: 1;
+}
+
+.image-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.image-description {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* Estilos para las imágenes dentro de los contenedores de análisis */
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra las imágenes en el contenedor */
+    align-items: center; /* Alinea las imágenes verticalmente en el centro */
+    gap: 20px; /* Espacio entre las imágenes */
+    margin-top: 20px; /* Añadir un margen superior si lo deseas */
+}
+
+.analysis-image {
+    max-width: 100%; /* Asegura que las imágenes no excedan el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados para un estilo más limpio */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+    transition: transform 0.3s ease-in-out; /* Efecto de transición para el hover */
+}
+
+.analysis-image:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
