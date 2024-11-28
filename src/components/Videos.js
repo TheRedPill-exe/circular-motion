@@ -1,29 +1,31 @@
-// src/components/Videos.js
 import React from 'react';
-import './Videos.css';  // Asegúrate de que el archivo CSS esté configurado correctamente
-import "../assets/Videos/videos.js"
+import ReactPlayer from 'react-player';  // Asegúrate de tener instalada la librería
+
 const Videos = () => {
   return (
     <div className="videos-container">
       <h1>Simulación de Movimiento Circular</h1>
 
       <h3 className="video-title">Movimiento Acelerado</h3>
-      <video width="600" controls className="video-card">
-        <source src="../assets/Videos/VideoAcelerado.mp4" type="video/mp4" />
-        Tu navegador no soporta el formato de video.
-      </video>
+      <ReactPlayer 
+        url="https://youtu.be/Um71KajKkwg"  // Video de YouTube
+        width="600px" 
+        controls 
+      />
 
       <h3 className="video-title">Movimiento sin Aceleración</h3>
-      <video width="600" controls className="video-card">
-        <source src="../assets/Videos/VideoSinAceleracion.mp4" type="video/mp4" />
-        Tu navegador no soporta el formato de video.
-      </video>
+      <ReactPlayer 
+        url="https://youtu.be/gtkjtvEM9LQ"  // Coloca el link de YouTube para este video
+        width="600px" 
+        controls 
+      />
 
       <h3 className="video-title">Fuerza Aplicada en un Momento Específico</h3>
-      <video width="600" controls className="video-card">
-        <source src="/assets/Videos/FuerzaAplicada.mp4" type="video/mp4" />
-        Tu navegador no soporta el formato de video.
-      </video>
+      <ReactPlayer 
+        url="https://youtu.be/888lL5xLkv0"  // Coloca el link de YouTube para este video
+        width="600px" 
+        controls 
+      />
     </div>
   );
 };
