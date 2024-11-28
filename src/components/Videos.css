@@ -1,0 +1,23 @@
+/* src/components/Videos.css */
+
+.videos-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .video-title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .video-card {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
