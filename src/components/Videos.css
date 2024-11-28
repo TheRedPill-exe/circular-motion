@@ -1,34 +1,47 @@
+/* src/components/Videos.css */
 .videos-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.video-title {
-  font-size: 1.5rem;
-  color: green;
-  margin-bottom: 10px;
   text-align: center;
 }
 
-.video-wrapper {
-  position: relative;
-  width: 100%;  /* Asegura que el contenedor ocupe todo el ancho disponible */
-  max-width: 900px; /* El tamaño máximo que tendrá el video en pantallas grandes */
-  height: 0;
-  padding-bottom: 56.25%; /* Relación de aspecto 16:9, 9/16 * 100 = 56.25% */
-  margin-bottom: 30px; /* Espacio entre los videos */
+.video-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.video-wrapper .react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.video-title {
+  font-size: 1.8rem;
+  color: #00ff99;
+  margin-bottom: 10px;
 }
 
+.react-player {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
 
+.video-description {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.related-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.related-link {
+  color: #00ff99;
+  text-decoration: none;
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.related-link:hover {
+  text-decoration: underline;
+}
