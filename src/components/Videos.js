@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player';  // Asegúrate de tener instalada la librería
 
 const Videos = () => {
   return (
@@ -10,7 +10,8 @@ const Videos = () => {
       <div className="video-wrapper">
         <ReactPlayer 
           url="https://youtu.be/Um71KajKkwg"  // Video de YouTube
-          className="react-player"
+          width="100%" 
+          height="auto" 
           controls 
         />
       </div>
@@ -18,8 +19,9 @@ const Videos = () => {
       <h3 className="video-title">Movimiento sin Aceleración</h3>
       <div className="video-wrapper">
         <ReactPlayer 
-          url="https://youtu.be/gtkjtvEM9LQ"  // Video de YouTube
-          className="react-player"
+          url="https://youtu.be/gtkjtvEM9LQ"  // Coloca el link de YouTube para este video
+          width="100%" 
+          height="auto" 
           controls 
         />
       </div>
@@ -27,8 +29,9 @@ const Videos = () => {
       <h3 className="video-title">Fuerza Aplicada en un Momento Específico</h3>
       <div className="video-wrapper">
         <ReactPlayer 
-          url="https://youtu.be/888lL5xLkv0"  // Video de YouTube
-          className="react-player"
+          url="https://youtu.be/888lL5xLkv0"  // Coloca el link de YouTube para este video
+          width="100%" 
+          height="auto" 
           controls 
         />
       </div>
