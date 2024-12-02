@@ -1,36 +1,44 @@
 /* src/styles/Instrucciones.css */
 
 .instrucciones-container {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 30px;
-  }
-  
-  .instrucciones-title {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
-  }
-  
-  .instrucciones-content {
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  .instrucciones-content ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .instrucciones-content li {
-    margin: 10px 0;
-    line-height: 1.5;
-  }
-  
-  .instrucciones-content strong {
-    color: #007bff;
-  }
-  
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.instrucciones-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.instrucciones-content {
+  font-size: 1rem;
+  color: #555;
+}
+
+.instrucciones-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instrucciones-content li {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.instrucciones-content strong {
+  color: #007bff;
+}
+
+/* Estilo para las imágenes */
+.instrucciones-image {
+  width: 100%; /* Ajusta la imagen al 100% del contenedor */
+  max-width: 600px; /* Tamaño máximo para evitar imágenes demasiado grandes */
+  height: auto; /* Mantén la proporción de la imagen */
+  display: block; /* Centra la imagen */
+  margin: 10px auto; /* Margen superior e inferior, y centrado horizontal */
+}
