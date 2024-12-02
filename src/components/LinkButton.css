@@ -1,0 +1,21 @@
+.link-button {
+    display: inline-block;
+    background-color: #00ffa5;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .link-button:hover {
+    background-color: #00cc85;
+    transform: translateY(-5px);
+  }
+  
+  .link-button:active {
+    transform: translateY(2px);
+  }
+  
