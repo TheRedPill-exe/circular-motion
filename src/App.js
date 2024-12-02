@@ -19,7 +19,6 @@ function App() {
       <Analysis />
       <Conclusion />
       <Videos />
-      <Gallery />
     </div>
   );
 }
