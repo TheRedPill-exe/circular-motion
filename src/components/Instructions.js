@@ -44,18 +44,30 @@ const Instructions = () => {
           <li>
             <strong>Paso 5: Generar video</strong>  
             <br />
-            Después de resionas el botón de "Guardar" y posteriormente presioas generar video.
+            Después de resionas el botón de "Guardar" y posteriormente presioas generar video. (Fig 4.)
           </li>
           <h2>Analizar video e informe de texto</h2>
           <li>
-            <strong>Paso 6: Exportación de Resultados</strong>  
+            <strong>Paso 1: Seleccionar video</strong>  
             <br />
-            Si la funcionalidad está habilitada, tendrás la opción de exportar los datos procesados o los gráficos generados a archivos externos (como imágenes o archivos CSV) para análisis adicional.
+            Después de presionar el botón "Calcular datos de video" debes presionar el botón de "Seleccionar video".
+            Ten en cuenta que el informe generado y el video deben estar en la misma carpeta.
+            Debes presionar el botón de "Calcular" y se iniciará el proceso de análisis del video. (tarda la misma cantidad 
+            de tiempo que el video)
           </li>
           <li>
-            <strong>Paso 7: Reiniciar</strong>  
+            <strong>Paso 2: Analizar resultados</strong>  
             <br />
-            Si deseas procesar un nuevo video, simplemente cierra la aplicación y vuelve a abrirla para cargar un nuevo archivo.
+            En una primera instancia, se mostrarán los datos de un modelo en desarrollo para analizar el análisis dinamico de una partícula.
+            Al cerrar esta ventana, se mostrarán los datos correctos del video analizado.
+            En el primer cuadrante se muestran las posiciones x e y del objeto en función del tiempo y la variación del angulo.
+            En el segundo cuadrante se muestra la aceleración angular, tangencial y centrípeta en función del tiempo.
+            En el tercer cuadrante se muestra la velocidad angular en función del tiempo.
+          </li>
+          <li>
+            <strong>Paso 3: Guardar gráficas</strong>  
+            <br />
+            Para guardar el gráfico debes presionar el botón resaltado en la figura 5. (parte inferior izquierda).
           </li>
         </ul>
         <p>Si tienes alguna pregunta o experimentas problemas con la interfaz, consulta la documentación o contáctanos para soporte técnico.</p>
