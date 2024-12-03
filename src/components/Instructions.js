@@ -77,6 +77,7 @@
               En el primer cuadrante se muestran las posiciones x e y del objeto en función del tiempo y la variación del angulo.
               En el segundo cuadrante se muestra la aceleración angular, tangencial y centrípeta en función del tiempo.
               En el tercer cuadrante se muestra la velocidad angular en función del tiempo. (Fig 6.)
+              Adicionalmente, al cerrar esta ventana se mostrará una ventana emergente con el torque, el trabajo generado por las fuerzas externas y por la energía rotacional.
               <img src={Fig6} alt="Interfaz con fuerza" className="instrucciones-image" />
             </li>
             <li>
