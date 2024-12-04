@@ -46,4 +46,14 @@
     font-size: 0.9rem;
     color: #999;
   }
+  .mensaje-base-datos h2 {
+    font-size: 36px; /* Tamaño grande para el texto */
+    color: #ff5722;  /* Color destacado */
+    font-weight: bold;
+    text-align: center;
+    background-color: #f0f0f0;  /* Fondo suave para resaltar */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
   
