@@ -1,0 +1,31 @@
+/* src/components/InvestigacionFallida.css */
+.investigacion-fallida-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .investigacion-fallida-container h2 {
+    color: #333;
+  }
+  
+  .investigacion-fallida-container h3 {
+    color: #555;
+  }
+  
+  .investigacion-fallida-container ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .investigacion-fallida-container li {
+    margin-bottom: 10px;
+  }
+  
+  .investigacion-fallida-container p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
+  

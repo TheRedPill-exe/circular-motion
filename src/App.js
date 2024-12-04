@@ -7,6 +7,7 @@ import Conclusion from './components/Conclusion';
 import Videos from './components/Videos';
 import Gallery from './components/Gallery';
 import Instructions from './components/Instructions.js'; 
+import InvestigacionFallida from './components/InvestigacionFallida.js';
 import './styles.css';  // Importa el archivo CSS
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Theory />
       <Analysis />
       <Conclusion />
+      <InvestigacionFallida />
       <Videos />
     </div>
   );

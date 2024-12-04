@@ -5,7 +5,7 @@ import '../styles.css';
 const Conclusion = () => {
   return (
     <div className="section-container">
-      <h2 className="section-title">Conclusiones del Trabajo</h2>
+      <h2 className="section-title">Conclusiones del Trabajo por analisis de texto y calculos fisicos</h2>
       <p className="section-text">
         Este proyecto ha permitido simular el comportamiento de un cuerpo en movimiento circular
         bajo diversas condiciones. Hemos analizado cómo la aceleración afecta la trayectoria y cómo
