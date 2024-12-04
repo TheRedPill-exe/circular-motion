@@ -14,7 +14,7 @@
       <div className="instrucciones-container">
         <h1 className="instrucciones-title">Instrucciones para crear un video y analizarlo</h1>
         <div className="instrucciones-content">
-          <p>Esta aplicación incluye una interfaz gráfica diseñada para cerar, 
+          <p>Esta aplicación incluye una interfaz gráfica diseñada para crear, 
             procesar un video y analizar el movimiento circular que se presenta en él. 
             A continuación, se detallan los pasos para interactuar con la interfaz:</p>
           <ul>
