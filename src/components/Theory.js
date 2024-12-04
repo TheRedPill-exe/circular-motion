@@ -15,7 +15,7 @@ const Theory = () => {
         <li><b>Fuerza centrípeta (Fc):</b> Fc = m * ac = m * ω² * r</li>
       </ul>
       <p className="section-text">
-        En el caso del movimiento circular acelerado, la aceleración no es constante y cambia
+        En el caso del movimiento circular acelerado, la aceleración es constante y cambia
         con el tiempo, lo que genera una variación en la velocidad angular.
       </p>
     </div>
