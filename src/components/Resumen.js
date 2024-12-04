@@ -6,7 +6,7 @@ const Resumen = () => {
     <div className="resumen-container">
       <h2>Resumen de los Proyectos</h2>
       <p>
-        Este sitio web presenta un proyecto elaborado en python y desplegado con JavasCript usando React, se busca analizar y simular
+        Este sitio web presenta un proyecto elaborado en python y desplegado con JavaScript usando React, se busca analizar y simular
         el comportamiento de objetos en movimiento (especificamente movimiento circular) con el objetivo de estudiar sus características dinámicas.
       </p>
       <a 
