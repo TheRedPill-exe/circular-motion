@@ -57,7 +57,7 @@
             <li>
               <strong>Paso 5: Generar video</strong>  
               <br />
-              Después de resionas el botón de "Guardar" y posteriormente presionas generar video.
+              Después de presionar el botón de "Guardar" y posteriormente presionas generar video.
             </li>
             <h2>Analizar video e informe de texto</h2>
             <li>
