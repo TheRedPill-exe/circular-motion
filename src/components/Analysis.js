@@ -70,15 +70,7 @@ const Analysis = () => {
         </div>
       </div>
       {/* Análisis 4 */}
-      <div className="analysis-card">
-        <h3>3. Conclusiones Generales del Análisis</h3>
-        <p>
-          A través de las simulaciones realizadas, podemos concluir que el movimiento circular idealizado...
-        </p>
-        <p>
-          Este análisis proporciona una comprensión más profunda sobre cómo las fuerzas y la aceleración afectan el comportamiento de los objetos...
-        </p>
-      </div>
+  
 
       {/* Modal */}
       {selectedImage && (
